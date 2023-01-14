@@ -1,0 +1,13 @@
+D:\Users\asaez\Desktop\C#\ProyectoFinal\bin\Debug\netcoreapp3.1\ProyectoFinal.exe
+D:\Users\asaez\Desktop\C#\ProyectoFinal\bin\Debug\netcoreapp3.1\ProyectoFinal.deps.json
+D:\Users\asaez\Desktop\C#\ProyectoFinal\bin\Debug\netcoreapp3.1\ProyectoFinal.runtimeconfig.json
+D:\Users\asaez\Desktop\C#\ProyectoFinal\bin\Debug\netcoreapp3.1\ProyectoFinal.runtimeconfig.dev.json
+D:\Users\asaez\Desktop\C#\ProyectoFinal\bin\Debug\netcoreapp3.1\ProyectoFinal.dll
+D:\Users\asaez\Desktop\C#\ProyectoFinal\bin\Debug\netcoreapp3.1\ProyectoFinal.pdb
+D:\Users\asaez\Desktop\C#\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.csprojAssemblyReference.cache
+D:\Users\asaez\Desktop\C#\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.AssemblyInfoInputs.cache
+D:\Users\asaez\Desktop\C#\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.AssemblyInfo.cs
+D:\Users\asaez\Desktop\C#\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.csproj.CoreCompileInputs.cache
+D:\Users\asaez\Desktop\C#\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.dll
+D:\Users\asaez\Desktop\C#\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.pdb
+D:\Users\asaez\Desktop\C#\ProyectoFinal\obj\Debug\netcoreapp3.1\ProyectoFinal.genruntimeconfig.cache
