@@ -8,7 +8,7 @@ namespace ProyectoFinal
     {
         public string Nombre { get; set; }
         public string Telefono { get; set; }
-        public string Email { get; set; }   
+        public string Email { get; set; }
 
         public Contacto() { }
 
@@ -19,31 +19,62 @@ namespace ProyectoFinal
             Email = email;
         }
 
-        string[] contactos = { };
+        List<Contacto> contactos = new List<Contacto>(20);
 
         #region metodos
-        public void AgregarContacto()
+        public void AgregarContacto(string nombre, string telefono, string email)
         {
-            string[] contactos = new string[] { Nombre, Telefono, Email };
-            Console.WriteLine("El contacto\nNombre: {0}\nTeléfono: {1}\nEmail: {2}",Nombre,Telefono,Email);
-            if (contactos.Length > 0)
+            contactos.Add(new Contacto { Nombre = nombre, Telefono = telefono, Email = email });
+            Console.WriteLine("\nEl contacto");
+            
+            if (contactos.Count > 0)
             {
-                Console.WriteLine("fue agregado con éxito.");
-            } else
+                foreach(Contacto contacto in contactos)
+                {
+                    Console.WriteLine("\nNombre: {0}\nTeléfono: {1}\nEmail: {2}\nfue agregado con éxito.", contacto.Nombre, contacto.Telefono, contacto.Email);
+                }
+                Console.WriteLine("Contacto agregado con éxito.");
+            }
+            else
             {
                 Console.WriteLine("no pudo ser agregado.");
             }
         }
 
-        public void VerContacto()
+        public void VerContacto(int orden)
         {
-            if (contactos.Length > 0)
+            List<Contacto> contactosNew = new List<Contacto>(contactos);
+
+            if (contactosNew.Count > 0)
             {
-                foreach (string i in contactos)
+                contactosNew.Sort(delegate (Contacto x, Contacto y) {
+                    if (x.Nombre == null && y.Nombre == null) return 0;
+                    else if (x.Nombre == null) return -1;
+                    else if (y.Nombre == null) return 1;
+                    else return x.Nombre.CompareTo(y.Nombre);
+                });
+
+                if (orden == 1)
                 {
-                    Console.WriteLine(i);
-                };
-            } else {
+                    Console.WriteLine("*** Orden ascendente ***");
+
+                    foreach(Contacto contacto in contactosNew)
+                    {
+                        Console.WriteLine("\nNombre: {0}\nTeléfono: {1}\nEmail: {2}", contacto.Nombre, contacto.Telefono, contacto.Email);
+                    };
+                }
+                else if (orden == 2)
+                {
+                    Console.WriteLine("*** Orden descendente ***");
+                    contactosNew.Reverse();
+                    for (int i = 0; i < contactosNew.Count; i++)
+                    {
+                        Console.WriteLine("\nNombre: {0}\nTeléfono: {1}\nEmail: {2}", contactosNew[i].Nombre, contactosNew[i].Telefono, contactosNew[i].Email);
+                    };
+                }
+            }
+            else
+            {
                 Console.WriteLine("No existen contactos aún.");
             }
 
@@ -51,19 +82,19 @@ namespace ProyectoFinal
 
         public void BorrarUltimoContacto()
         {
-            
-            Console.WriteLine("Borrar contacto funciona");
+            contactos.Remove(contactos[contactos.Count - 1]);
         }
 
-        public void Buscarcontacto()
+        public void Buscarcontacto(string nombre)
         {
-            Console.WriteLine("Buscar contacto funciona");
-        }
-
-        public void orden()
-        {
-            Console.WriteLine("orden funciona");
-            // Array.Sort(Contactos);
+            Console.WriteLine(contactos[0].Nombre.Contains(nombre));
+            foreach (Contacto i in contactos)
+            {
+                if ((contactos[0].Nombre).ToLower() == nombre.ToLower())
+                {
+                    Console.WriteLine("\nNombre: {0}\nTeléfono: {1}\nEmail: {2}", i.Nombre, i.Telefono, i.Email);
+                }
+            };
         }
 
         public override string ToString()

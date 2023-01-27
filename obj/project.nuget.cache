@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BUlpHhNVp3kQqjh6MvVfCN6/qKkBj+ketFeHWFRE2UDxs8TqJQEsgRzyufVdT6N/j1CyjhMN+ps9l44RjUUiQw==",
+  "dgSpecHash": "YO6B+Lb6pq5G3AFrho3YUexB4RU6E4cMMLCpm7aL8lp07PRCtudnuuQSsNGBPtXVStLSKT+DoXYePnkoWuxyDg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\asaez\\Desktop\\C#\\ProyectoFinal\\ProyectoFinal.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\TheRealPazuzu\\Downloads\\C#\\Agenda-de-contactos\\ProyectoFinal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TheRealPazuzu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\TheRealPazuzu\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\TheRealPazuzu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\TheRealPazuzu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
