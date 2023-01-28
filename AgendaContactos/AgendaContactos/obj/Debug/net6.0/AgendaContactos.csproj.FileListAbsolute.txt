@@ -1,0 +1,15 @@
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\bin\Debug\net6.0\AgendaContactos.exe
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\bin\Debug\net6.0\AgendaContactos.deps.json
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\bin\Debug\net6.0\AgendaContactos.runtimeconfig.json
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\bin\Debug\net6.0\AgendaContactos.dll
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\bin\Debug\net6.0\AgendaContactos.pdb
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\AgendaContactos.csproj.AssemblyReference.cache
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\AgendaContactos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\AgendaContactos.AssemblyInfoInputs.cache
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\AgendaContactos.AssemblyInfo.cs
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\AgendaContactos.csproj.CoreCompileInputs.cache
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\AgendaContactos.dll
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\refint\AgendaContactos.dll
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\AgendaContactos.pdb
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\AgendaContactos.genruntimeconfig.cache
+C:\Users\TheRealPazuzu\Desktop\agenda-de-contactos\AgendaContactos\AgendaContactos\obj\Debug\net6.0\ref\AgendaContactos.dll
